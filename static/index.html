@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Live Captions</title>
+    <style>
+
+    body {
+    margin: 0;
+    padding: 0;
+    background-color: #00FF00;   /* chroma green */
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    }
+    #captions {
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 90%;
+    text-align: center;
+
+    /* TV subtitle box styling */
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 0.6em 1em;
+    border-radius: 8px;
+
+    font-size: 1.7rem;
+    line-height: 1.3;
+    font-weight: 500;
+
+    /* slight shadow for crisp readability */
+    text-shadow: 0 0 6px rgba(0, 0, 0, 1);
+
+    /* stacked subtitles behave properly */
+    display: inline-block;
+}
+
+/* Each caption line (phrase) */
+#captions p {
+    margin: 0.2em 0;
+}
+
+    </style>
+  </head>
+  <body>
+   
+    <button id="start">Start Captions</button>
+    <pre id="captions"></pre>
+   <script src="/static/app.js"></script>
+  </body>
+</html>
