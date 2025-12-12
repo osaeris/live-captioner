@@ -2,7 +2,7 @@
 
 This is an attempt to create a live captioner which can be fed audio by
 any chosen source and provide 2-line subtitles on a chroma-green
-background.
+background. Created on M series Mac. Uses metal for acceleration.
 
 It's early days, but it's working! 🙂
 
