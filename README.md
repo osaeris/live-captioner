@@ -64,7 +64,7 @@ docker run -p 8000:8000 --name captioner captioner
 
 Visit:
 
-**http://127.0.0.1:8000/**
+http://127.0.0.1:8000/
 
 Click **"Start captions"** (allow microphone permissions from your
 chosen source).
