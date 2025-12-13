@@ -49,7 +49,7 @@ Navigate to your project directory:
 cd ~/Documents/scripts/docker-projects/speech-captioner/
 ```
 
-### **Stop and rebuild the container**
+### **How to stop and rebuild the container**
 
 ``` bash
 docker stop captioner
